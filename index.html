@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Face Attendance</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <!-- google fonts css -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- font awesome css -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <!-- custom css -->
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+</head>
+<body>
+    <!-- navbar start -->
+  <section class="navigation-home fixed-top">
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-md">
+        <a class="navbar-brand" href="./index.html">
+          <h4 class="mb-0">Face Attendance System</h4>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">All Employees <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Previous Attendance</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <img src="./assets/images/face.jpg" alt="">
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Profile</a>
+                <a class="dropdown-item" href="#">Settings</a>
+                <a class="dropdown-item" href="#">Logout</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </section>
+  <!-- navbar end -->
+  <!-- full content start -->
+  <section class="full-content">
+    <div class="container-fluid">
+      <div class="row mb-2 attendance-title">
+        <div class="col-md-6 p-2">
+          <h6>Todays Attendance</h6>
+        </div>
+        <div class="col-md-6 p-2 todays-attn">
+          <h6>Todays Date: <span>10-10-2020</span></h6>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-8 mb-4">
+          <div class="video-part">
+            <video id="video" width="100%" height="auto" autoplay=""></video>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="video-output">
+            <div class="single-item mb-3">
+              <img src="assets/images/face.jpg" alt="">
+              <h5 class="name">Victoria Lune</h5>
+              <p class="desig">Project Manager</p>
+              <p class="emp-id">ID: 105-43-201</p>
+              <p class="status">Status: Present in time</p>
+            </div>
+            <div class="single-item mb-3">
+              <img src="assets/images/face-2.jpg" alt="">
+              <h5 class="name">Ruby Hailey</h5>
+              <p class="desig">Team Lead</p>
+              <p class="emp-id">ID: 105-43-201</p>
+              <p class="status">Status: Present in late</p>
+            </div>
+            <div class="single-item mb-3">
+              <img src="assets/images/face.jpg" alt="">
+              <h5 class="name">Alex Joseph</h5>
+              <p class="desig">Programmer</p>
+              <p class="emp-id">ID: 105-43-201</p>
+              <p class="status">Status: Present in time</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- full content end -->
+
+  <!-- jquery js -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!-- bootstrap js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <!-- custom js -->
+  <script src="assets/js/scripts.js"></script>
+</body>
+</html>
